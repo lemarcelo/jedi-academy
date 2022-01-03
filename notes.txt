@@ -1,0 +1,2 @@
+ng g c [Nome do componente] --spec=false
+ng serve
