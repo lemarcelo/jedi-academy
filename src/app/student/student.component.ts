@@ -1,4 +1,5 @@
 import { Component, OnInit, Input} from '@angular/core';
+
 import {Student} from './student.model'
 
 @Component({
@@ -12,5 +13,8 @@ export class StudentComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+  }
+  clicked(){
+    console.log(`Student: ${this.student.name}`)
   }
 }
