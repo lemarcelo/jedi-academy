@@ -1,0 +1,8 @@
+webpack cria bundles compila e separa em bundles específicos{
+    polyfills -> série de scripts para aumentar a compatibilidade com browsers antigfxFlexOffset
+    main -> scripts da sua aplicação
+    styles -> Estilos que estará utilizando -> Todos os arquivos de CSS incluídos para ser utilizados pela aplicação
+    vendor -> scripts de terceiros
+    inline -> Carregar toda esta estrutura acima e fazer com que o angular possa ser iniciado no navegador
+    Todos os bundles são listados como arquivos .js e uma vez com estes arquivos o webpack vai carregar todos estes arquivos no seu browser
+}
